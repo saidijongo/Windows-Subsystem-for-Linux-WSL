@@ -22,4 +22,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#newaly added to add arduino-cli to the wsl path
 export PATH=$PATH:/mnt/c/Windows/System32/bin
